@@ -61,7 +61,7 @@ public class Robot extends IterativeRobot {
 	 */
 	@Override
 	public void autonomousPeriodic() {
-		System.out.println("Nathan is disabled");
+		System.out.println("Darryl is disabled");
 		switch (m_autoSelected) {
 			case kCustomAuto:
 				// Put custom auto code here
