@@ -7,6 +7,8 @@
 
 package org.usfirst.frc.team4237.robot;
 
+// fasdfgasdg
+
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
@@ -59,6 +61,7 @@ public class Robot extends IterativeRobot {
 	 */
 	@Override
 	public void autonomousPeriodic() {
+		System.out.println("Nathan is disabled");
 		switch (m_autoSelected) {
 			case kCustomAuto:
 				// Put custom auto code here
