@@ -59,7 +59,11 @@ public class Robot extends IterativeRobot {
 	 */
 	@Override
 	public void autonomousPeriodic() {
+<<<<<<< HEAD
 		System.out.print("Darryl is bad at melee");
+=======
+		// Nathan you broke it
+>>>>>>> branch 'master' of https://github.com/SirLanceABot/2019-Tutorial
 		switch (m_autoSelected) {
 			case kCustomAuto:
 				// Put custom auto code here
