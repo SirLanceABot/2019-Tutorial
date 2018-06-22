@@ -59,7 +59,11 @@ public class Robot extends IterativeRobot {
 	 */
 	@Override
 	public void autonomousPeriodic() {
+
 		System.out.print("Darryl is bad at melee");
+
+		// Nathan don't break it again
+
 		switch (m_autoSelected) {
 			case kCustomAuto:
 				// Put custom auto code here
